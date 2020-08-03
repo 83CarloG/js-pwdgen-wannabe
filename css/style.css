@@ -20,7 +20,7 @@
 .title {
   color: white;
   font-size: 48px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 #pw {
   padding: 10px 20px;
