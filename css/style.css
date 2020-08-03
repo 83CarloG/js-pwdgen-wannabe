@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: white;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+#pw {
+  padding: 10px 20px;
+  margin-top: 50px;
+  border: 2px solid white;
+  background-color: white;
+}
